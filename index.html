@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AwayDays - Tiket Sepak Bola</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f4f7;
+        }
+
+        header {
+            background-color: #0b1c2d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            letter-spacing: 3px;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .match-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        .match-info h3 {
+            margin: 0;
+            color: #0b1c2d;
+        }
+
+        .match-info p {
+            margin: 6px 0;
+            color: #555;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e88e5;
+            margin-bottom: 8px;
+        }
+
+        .btn {
+            background-color: #1e88e5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #1565c0;
+        }
+
+        footer {
+            background-color: #0b1c2d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .match-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .price {
+                text-align: left;
+                margin-top: 10px;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+                padding: 12px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            .match-info h3 {
+                font-size: 16px;
+            }
+
+            .price {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AWAYDAYS</h1>
+    <p>Platform Pembelian Tiket Sepak Bola Nasional</p>
+</header>
+
+<div class="container">
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Persija Jakarta vs Persib Bandung</h3>
+            <p>Stadion GBK</p>
+            <p>20 Agustus 2025 | 19:30 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 150.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Arema FC vs Persebaya</h3>
+            <p>Stadion Kanjuruhan</p>
+            <p>22 Agustus 2025 | 18:30 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 130.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>PSM Makassar vs Bali United</h3>
+            <p>Stadion BJ Habibie</p>
+            <p>23 Agustus 2025 | 20:00 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 110.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Persib Bandung vs Dewa United</h3>
+            <p>Stadion Gelora Bandung Lautan Api</p>
+            <p>24 Agustus 2025 | 19:00 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 100.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Borneo FC vs Madura United</h3>
+            <p>Stadion Segiri</p>
+            <p>26 Agustus 2025 | 18:00 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 95.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>PSIS Semarang vs PSS Sleman</h3>
+            <p>Stadion Jatidiri</p>
+            <p>27 Agustus 2025 | 19:30 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 90.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Persita Tangerang vs Persik Kediri</h3>
+            <p>Stadion Indomilk Arena</p>
+            <p>28 Agustus 2025 | 18:00 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 85.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="match-info">
+            <h3>Barito Putera vs Persis Solo</h3>
+            <p>Stadion Demang Lehman</p>
+            <p>29 Agustus 2025 | 20:00 WIB</p>
+        </div>
+        <div>
+            <p class="price">Rp 80.000</p>
+            <a href="#" class="btn">Beli Tiket</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 AwayDays | rebel culture holigan AwayDays</p>
+</footer>
+
+</body>
+</html>
